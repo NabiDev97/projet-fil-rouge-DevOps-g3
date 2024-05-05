@@ -1,0 +1,102 @@
+*{
+    padding: o;
+    margin: o;
+}
+body{
+    background: #ff7b00;
+}
+.main{
+    background:white;
+    width: 100%;
+    min-height: 100vh;
+    
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background: url(./logoODC.png) center/cover;
+    border: 2px solid #ff7b00;
+    border-radius: 150px;
+}
+h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: normal;
+    word-spacing: 3px;
+    text-shadow: 0px -3px 0 #ff7b00;
+}
+.formulaire{
+    margin: 0 10%;
+    background: #ff7b00;
+    border-radius: 10px;
+}
+.formulaire form{
+    width: 80%;
+    padding: 50px 0 10% 10%;
+    display: grid;
+    grid-template-columns:1fr ;
+
+
+}
+label{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    
+}
+input{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#image:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-size: 1em;
+    animation: 0.5ms;
+}
+#sbt{
+width: 80px;
+background-color: green;
+}
+
+
+ #sbt:hover{
+    /*cursor: pointer;*/
+    color: rgb(64, 236, 55);
+    font-size: 1em;
+    background: rgb(255, 255, 255);
+    animation: 0.5ms;
+    
+}
+.avatar {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Largeur de l'avatar */
+    height: 100px;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
