@@ -16,7 +16,12 @@ pipeline {
     post{
           success{
               script{
-                    slackSend channel: 'filrougeg3', message: 'Pipeline executer avec success'
+                    slackSend channel: 'filrougeg3', message: 'Le buil est effectuer avec success'
+              }
+          }
+        failure{
+              script{
+                    slackSend channel: 'filrougeg3', message: 'Erreur :Echec du buil!'
               }
           }
         }
